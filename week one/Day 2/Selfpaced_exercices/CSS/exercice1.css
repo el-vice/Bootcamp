@@ -1,0 +1,45 @@
+.bg_text{
+	background-color: yellow;
+}
+.list_title{
+	text-decoration: underline;
+}
+ol{
+	list-style: upper-roman;
+}
+#table_head{
+	color: red;
+	display: block;
+	width: 1195px;
+	border: 3px solid red;
+	padding: auto;
+	margin: auto;
+	text-align: center;
+}
+td, th{
+	width: auto;
+	border: 1px solid black;
+	padding: auto;
+
+}
+table{
+	margin: auto;
+}
+#cat_img{
+	width: 700px;
+	height: 400px;
+	border: 5px solid orange;
+}
+#lion_img{
+	display: block;
+	width: 700px;
+	height: 700px;
+	margin: auto;
+	padding: 50px;
+}
+.media{
+	border: none;
+}
+th[class]{
+	padding-bottom: 50px;
+}

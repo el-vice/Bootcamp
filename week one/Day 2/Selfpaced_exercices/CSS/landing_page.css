@@ -1,0 +1,158 @@
+main{
+	width: 1400px;
+	height: 700px;
+	padding-top: 50px;
+}
+section, nav{
+	width: 1000px;
+	margin: auto;
+}
+.services_name{
+	display: inline-block;
+	width: 230px;
+	margin: auto;
+	padding-top: 50px;
+}
+.servicesname p{
+	font-size: 20px;
+	font-weight: bolder;
+	margin-bottom: 0px;
+}
+i{
+	font-size: 50px;
+}
+#services_article{
+	background-color: rgb(248, 249, 250);
+}
+#main_bot{
+	width: 750px;
+	margin: auto;
+	padding-left: 50px;
+	padding-right: auto;
+}
+.first_serv{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-bottom: 0px;
+}
+.second_serv{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-bottom: 0px;
+}
+.third_serv{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-bottom: 0px;
+}
+span{
+	font-weight: normal;
+	font-size: 15px;
+	color: grey;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 0px;
+	text-align: right;
+}
+/*nav div{
+	display: inline-block;
+	border: 2px solid green;
+	width: 994px;
+	margin: auto;
+}*/
+/*section p{
+	border: 2px solid hotpink;
+	width: 900px;
+	padding: auto;
+	text-align: center;
+	margin-top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+#central_form{
+	height: 60px;
+	width: 900px;
+	margin: auto;
+	padding: auto;
+	text-align: center;
+
+}
+fom{
+	width: 990px;
+	margin: auto;
+}
+#main_text{
+	width: 950px;
+	margin: auto;
+	padding-top: 50px;
+}
+label{
+	display: inline-block;
+	width: 300px;
+	margin-left: 100px;
+	margin-right: auto;
+	text-align: left;
+	font-weight: bold;
+}
+#sign_in{
+	display: inline-block;
+	width: 70px;
+	height: 25px;
+	margin-right: 100px;
+	margin-left: 400px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	text-align: center;
+	border: none;
+	background-color: rgb(1, 123, 255);
+	border-radius: 3px;
+}
+nav{
+	height: 40px;
+	background-color: rgb(248, 249, 250);
+
+}
+#main_article{
+	background-image: url(../images/bg_img2345.jpg);
+	height: 432px;
+}
+#main_sign_up_button{
+	width: 80px;
+	height: 30px;
+	color: white;
+	background-color: rgb(1, 123, 255);
+	border: none;
+	border-radius: 3px;
+}
+#email_input{
+	height: 30px;
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	padding-left: 10px;
+}
+#intro_text{
+	width: 490px;
+	margin: auto;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	font-size: 30px;
+	color: white;
+}
+
+/*#up_form{
+	border: 2px solid yellow;
+	width: 900px;
+	margin: auto;
+}*/
+/*#menu_bar_item2{
+	width: 400px;
+	margin: auto;
+}
+#menu_bar_item1{
+	width: 400px;
+	margin: auto;
+}*/

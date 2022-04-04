@@ -1,0 +1,47 @@
+#test{
+	text-decoration: underline;
+	font-style: italic;
+}
+.first{
+	border: 2px solid green;
+	background-color: palegreen;
+	width: 600px;
+	margin: auto;
+	padding: 30px;
+}
+#blue{
+	width: 70px;
+	height: 120px;
+	background-color: blue;
+	display: inline-block;
+	margin-left: 200px;
+
+}
+#white{
+	width: 70px;
+	height: 120px;
+	background-color: white;
+	display: inline-block;
+}
+#red{
+	width: 70px;
+	height: 120px;
+	background-color: red;
+	display: inline-block;
+}
+ul li{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#second{
+	color: blue;
+}
+p[class="emphasize1"]{
+	color: white;
+	background-color: pink;
+}
+div p[class="emphasize2"]{
+	background-color: lightblue;
+	padding: 20px;
+	margin: 20px;
+}

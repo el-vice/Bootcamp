@@ -1,0 +1,127 @@
+main{
+	width: 1400px;
+	height: ;
+	margin: auto;
+	borde: 2px solid red;
+}
+/*---Début de la mise en forme du header.*/
+header{
+	position: relative;
+	width: 1200px;
+	height: 300px;
+	margin: auto;
+	background-color: rgb(248, 249, 250);
+	borde: 1px solid blue;
+	border-radius: 10px 10px 0px 0px;
+	box-shadow: 5px 5px 10px grey;
+}
+img{
+	width: 240px;
+	height: 240px;
+	border-radius: 120px;
+}
+#Prof_pict, #Name_work{
+	display: inline-block;
+	position: absolute;
+	vertical-align: middle;
+}
+#Prof_pict{
+	right: 0px;
+	border-radius: 15px;
+}
+#Name{
+	font-size: 40px;
+}
+#Surname{
+	font-size: 80px;
+	text-transform: uppercase;
+}
+hr{
+	position: absolute;
+	top: 140px;
+	width: 350px;
+	height: 5px;
+	background-color: darkgoldenrod;
+}
+#profession{
+	font-weight: bold;
+	font-size: 20px;
+}
+/*-----Fin-----------*/
+#Skills{
+	position: relative;
+	width: 1200px;
+	height: 150px;
+	margin: auto;
+	top: 0px;
+	background-color: rgb(248, 249, 250);
+	borde: 1px solid maroon;
+	border-radius: 0px 0px 0px 0px;
+	box-shadow: 5px 5px 10px grey;
+}
+#Specialization, #Computer_literacy, #Language, #Others{
+	position: absolute;
+	display: inline-block;
+	top: 15px;
+	width: 270px;
+	height: 120px;
+	padding-top: 0px;
+	font-size: 15px;
+	borde: 1px solid brown;
+}
+#Others{
+	right: 0px;
+	left: px;
+}
+#Language{
+	right: 271px;
+}
+#Computer_literacy{
+	right: 542px;
+}
+#Specialization{
+	right: 813px;
+}
+.list_title{
+	font-weight: bold;
+	font-size: 17px;
+}
+aside{
+	position: absolute;
+	display: inline-block;
+	left: 0px;
+	vertical-align: top;
+	width: 358px;
+	padding: 5px;
+	height: ;
+	box-shadow: 5px 5px 10px grey;
+	border: none;
+	border-radius: 0px 0px 0px 10px;
+	background-color: rgb(248, 249, 250);
+}
+section{
+	position: absolute;
+	display: inline-block;
+	right: 0px;
+	width: 790px;
+	height: ;
+	padding: 10px;
+	box-shadow: 5px 5px 10px grey;
+	borde: 1px solid magenta;
+	background-color: rgb(248, 249, 250);
+}
+section p{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+h3{
+	text-decoration: underline;
+}
+#content{
+	position: relative;
+	width: 1200px;
+	height: 100px;
+	margin: auto;
+	padding-top: 30px;
+	borde: 1px solid magenta;
+}

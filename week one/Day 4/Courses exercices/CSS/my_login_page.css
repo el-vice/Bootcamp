@@ -1,0 +1,85 @@
+section{
+	position: relative;
+	top: 100px;
+	width: 905px;
+	height: 600px;
+	margin: auto;
+	borde: 2px solid red;
+}
+#register, #login{
+	display: inline-block;
+	width: 450px;
+	height: 590px;
+	position: absolute;
+}
+#register{
+	right: 0px;
+	borde: 2px solid red;
+	padding: auto;
+	background-color: rgba(248, 0, 0, 0.3);
+
+}
+#login{
+	top: 0px;
+	background-color: rgb(248, 249, 250);
+}
+form{
+	position: relative;
+	width: 350px;
+	margin: auto;
+}
+input{
+	display: inline-block;
+	width: 300px;
+	height: 30px;
+	margin-top: 30px;
+}
+#check{
+	width: auto;
+	height: auto;
+}
+span{
+	position: absolute;
+	display: inline-block;
+	right: 28px;
+	top: 198px;
+}
+legend{
+	text-align: center;
+	width: 130px;
+}
+fieldset{
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	border-top-width: 5px ;
+	border-color: red;
+	margin-top: 30px;
+}
+#login_legend
+{
+	border-top: none;
+}
+#icons{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+#login_text{
+	font-size: 30px;
+	font-weight: bold;
+}
+#sign_up_button{
+	border: none;
+	border-radius: 20px;
+	width: 150px;
+	background-color: rgb(1, 123, 255);
+}
+#login_button{
+	border: none;
+	background-color: rgb(1, 123, 255);
+}

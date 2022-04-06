@@ -1,0 +1,105 @@
+main{
+	width: 702px;
+	margin: auto;
+	box-shadow: 5px 5px 100px steelblue;
+	border-radius: 5px;
+}
+nav{
+	position: relative;
+	width: 700px;
+	margin: auto;
+	height: 40px;
+	margin-top: 100px;
+	background-color: rgb(248, 249, 250);
+	border-top: 1px solid blue;
+	border-left: 1px solid blue;
+	border-right: 1px solid blue;
+	border-radius: 5px 5px 0px 0px;
+}
+section{
+	position: relative;
+	width: 700px;
+	margin: auto;
+	height: 400px;
+	background-color: rgba(49, 194, 245, 0.5);
+	border-left: 1px solid blue;
+	border-right: 1px solid blue;
+}
+img{
+	position: relative;
+	left: 200px;
+	top: 50px;
+	display: inline-block;
+	width: 300px;
+	margin: auto;
+}
+nav p, input{
+	display: inline-block;
+}
+nav input{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+nav p{
+	margin-left: 10px;
+
+}
+form{
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	borde: 2px solid red;
+	width: 455px;
+	margin: auto;
+	padding: 0px;
+}
+form a{
+	display: block;
+}
+#search_bar{
+	width: 300px;
+	height: 25px;
+	border:;
+	background-color:;
+}
+.button{
+	width: 150px;
+	height: 25px;
+	border: none;
+	border-radius: 3px;
+	background-color: rgba(32, 56, 100, 1.0);
+	color: white;
+	font-weight: bold;
+}
+#login_button{
+	width: 150px;
+	position: relative;
+	left: 304px;
+	margin-top: 20px;
+	height: 25px;
+	border: none;
+	border-radius: 3px;
+	background-color: rgba(32, 56, 100, 1.0);
+	font-weight: bold;
+	color: white;
+}
+a{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+footer{
+	position: relative;
+	width: 700px;
+	top: 0px;
+	background-color: rgba(49, 194, 245, 0.5);
+	border-bottom: 1px solid blue;
+	border-left: 1px solid blue;
+	border-right: 1px solid blue;
+	border-radius: 0px 0px 5px 5px;
+	margin-top: 0px;
+}
+footer p{
+	text-align: center;
+	color: grey;
+}

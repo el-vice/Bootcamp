@@ -108,6 +108,10 @@ nav{
 	background-color: rgba(32, 56, 100, 1.0);
 	color: white;
 }
+#form_button: active{
+	color: green;
+	box-shadow: 3px 3px 3px white inset;
+}
 form a{
 	text-transform: none;
 	text-align: right;

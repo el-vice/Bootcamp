@@ -69,13 +69,6 @@ img{
 	width: 200px;
 	margin: 20px;
 }
-.img_desc{
-	position: absolute;
-	display: inline-blocks;
-	width: 200px;
-	border: 2px solid blue;
-	margin: 20px;
-}
 figcaption{
 	position: absolute;
 	display: inline-block;
@@ -90,7 +83,7 @@ figcaption{
 	margin: 0px;
 	padding: 0px;
 	line-height: 1px;
-	border: 2px solid blue;
+	borde: 2px solid blue;
 }
 #dect4_desc{
 	right: 346px;
@@ -98,7 +91,7 @@ figcaption{
 	width: 200px;
 	margin: 0px;
 	line-height: 1px;
-	border: 2px solid blue;
+	borde: 2px solid blue;
 }
 #dect3_desc{
 	right: 590px;
@@ -106,7 +99,7 @@ figcaption{
 	width: 200px;
 	margin: 0px;
 	line-height: 1px;
-	border: 2px solid blue;
+	borde: 2px solid blue;
 }
 #dect2_desc{
 	right: 834px;
@@ -114,15 +107,25 @@ figcaption{
 	width: 200px;
 	margin: 0px;
 	line-height: 1px;
-	border: 2px solid blue;
+	borde: 2px solid blue;
 }
 #dect1_desc{
 	right: 1078px;
 	top: 351px;
 	width: 200px;
-	border: 2px solid blue;
+	borde: 2px solid blue;
 	margin: 0px;
 	line-height: 1px;
+}
+figcaption:hover {
+	box-shadow: 5px 5px 20px darkblue;
+	border: 1px solid greenyellow;
+	borde-left: 1px solid white;
+	border-radius: 7px;
+}
+.button:active{
+	color: green;
+	box-shadow: 3px 3px 3px white inset;
 }
 #dt{
 	position: relative;
@@ -136,7 +139,7 @@ figcaption{
 	margin: 0px;
 	padding: 0px;
 	line-height: 1px;
-	border: 2px solid blue;
+	borde: 2px solid blue;
 
 }
 #dectvelo4_desc{
@@ -145,7 +148,7 @@ figcaption{
 	width: 200px;
 	margin: 0px;
 	line-height: 1px;
-	border: 2px solid blue;
+	borde: 0.1px solid white;
 }
 #dectvelo3_desc{
 	right: 588px;
@@ -153,7 +156,7 @@ figcaption{
 	width: 200px;
 	margin: 0px;
 	line-height: 1px;
-	border: 2px solid blue;
+	borde: 2px solid blue;
 }
 #dectvelo2_desc{
 	right: 832px;
@@ -161,13 +164,13 @@ figcaption{
 	width: 200px;
 	margin: 0px;
 	line-height: 1px;
-	border: 2px solid blue;
+	borde: 2px solid blue;
 }
 #dectvelo1_desc{
 	right: 1076px;
 	top: 273px;
 	width: 200px;
-	border: 2px solid blue;
+	borde: 2px solid blue;
 	margin: 0px;
 	line-height: 1px;
 }
@@ -182,7 +185,7 @@ figcaption{
 	width: 200px;
 	margin: 0px;
 	line-height: 1px;
-	border: 2px solid blue;
+	borde: 2px solid blue;
 }
 #dm2_desc{
 	right: 588px;
@@ -190,7 +193,7 @@ figcaption{
 	width: 200px;
 	margin: 0px;
 	line-height: 1px;
-	border: 2px solid blue;
+	borde: 2px solid blue;
 }
 #dm1_desc{
 	right: 832px;
@@ -198,13 +201,13 @@ figcaption{
 	width: 200px;
 	margin: 0px;
 	line-height: 1px;
-	border: 2px solid blue;
+	borde: 2px solid blue;
 }
 #dm_desc{
 	right: 1076px;
 	top: 382px;
 	width: 200px;
-	border: 2px solid blue;
+	borde: 2px solid blue;
 	margin: 0px;
 	line-height: 1px;
 }
@@ -244,4 +247,9 @@ footer{
 footer p{
 	text-align: center;
 	color: grey;
+}
+img[id="dect1_img"]:hover{
+	#dect1_img{
+		display: none;
+	}
 }

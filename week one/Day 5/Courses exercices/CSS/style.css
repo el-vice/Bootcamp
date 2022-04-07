@@ -1,6 +1,7 @@
 main{
 	width: 702px;
 	margin: auto;
+	height: 475px;
 	box-shadow: 5px 5px 100px steelblue;
 	border-radius: 5px;
 }
@@ -91,7 +92,7 @@ a{
 footer{
 	position: relative;
 	width: 700px;
-	top: 0px;
+	bottom: 16px;
 	background-color: rgba(49, 194, 245, 0.5);
 	border-bottom: 1px solid blue;
 	border-left: 1px solid blue;

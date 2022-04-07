@@ -113,3 +113,25 @@ form a{
 	text-align: right;
 	margin-left: 330px;
 }
+form a[id="signup"]{
+	text-transform: none;
+	text-align: right;
+	margin-left: 235px;
+}
+h1 span{
+	display: inline-block;
+	position: absolute;
+	width: 250px;
+	right: 12px;
+	margin-bottom: 15px;
+	text-decoration: none;
+	text-transform: initial;
+	font-weight: normal;
+	font-size: 18px;
+}
+span a{
+	text-decoration: none;
+	text-transform: initial;
+	font-weight: normal;
+	color:;
+}

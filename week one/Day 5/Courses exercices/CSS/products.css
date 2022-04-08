@@ -2,6 +2,7 @@ main{
 	width: 1302px;
 	height: 1685px;
 	margin: auto;
+	margin-bottom: 50px;
 	padding-top: 0px;
 	box-shadow: 5px 5px 100px steelblue;
 	border-radius: 5px;
@@ -65,151 +66,76 @@ hr{
 	border-radius: 5px 0px 5px 0px;
 }
 img{
+	position: relativ;
+	display: inline-block;
+	width: 200px;
+	margin: auto;
+}
+figcaption{
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	margin: auto;
+	left: ;
+	text-align: center;
+}
+}
+img:hover figcaption{
+	border: 1px solid blue;
+}
+.img_box1{
+	position: relative;
 	display: inline-block;
 	width: 200px;
 	margin: 20px;
 }
-figcaption{
-	position: absolute;
-	display: inline-block;
-	width: 200px;
-	left: ;
-	text-align: center;
-}
-#dect5_desc{
-	right: 101px;
-	top: 351px;
-	width: 200px;
-	margin: 0px;
-	padding: 0px;
-	line-height: 1px;
-	borde: 2px solid blue;
-}
-#dect4_desc{
-	right: 346px;
-	top: 351px;
-	width: 200px;
-	margin: 0px;
-	line-height: 1px;
-	borde: 2px solid blue;
-}
-#dect3_desc{
-	right: 590px;
-	top: 351px;
-	width: 200px;
-	margin: 0px;
-	line-height: 1px;
-	borde: 2px solid blue;
-}
-#dect2_desc{
-	right: 834px;
-	top: 351px;
-	width: 200px;
-	margin: 0px;
-	line-height: 1px;
-	borde: 2px solid blue;
-}
-#dect1_desc{
-	right: 1078px;
-	top: 351px;
-	width: 200px;
-	borde: 2px solid blue;
-	margin: 0px;
-	line-height: 1px;
-}
-figcaption:hover {
+.img_box1:hover figcaption{
 	box-shadow: 5px 5px 20px darkblue;
 	border: 1px solid greenyellow;
 	borde-left: 1px solid white;
-	border-radius: 7px;
+	border-radius: 0px 0px 7px 7px;
+}
+.img_box1:hover{
+	box-shadow: 5px 5px 4px steelblue;
+	border-radius: 7px 7px 0px 0px;
+	border: none;
+}
+.act_icon_box{
+	display: none;
+	position: absolute;
+	bottom: 170px;
+	left: 30px;
+	width: 140px;
+	margin: auto;
+}
+.img_box1:hover .act_icon_box{
+	display: inline-block;
+}
+.icon{
+	width: 40px;
+	border: 1px solid grey inset;
+}
+.icon:hover{
+	border-style: inset;
+}
+title{
+	background-color: steelblue;
+	color: darkblue;
+	border-radius: 5px;
 }
 .button:active{
 	color: green;
 	box-shadow: 3px 3px 3px white inset;
 }
-#dt{
+.group{
 	position: relative;
 	width: 1298px;
-	height: 500px;
-}
-#dectvelo5_desc{
-	right: 99px;
-	top: 274px;
-	width: 200px;
-	margin: 0px;
-	padding: 0px;
-	line-height: 1px;
-	borde: 2px solid blue;
-
-}
-#dectvelo4_desc{
-	right: 344px;
-	top: 274px;
-	width: 200px;
-	margin: 0px;
-	line-height: 1px;
-	borde: 0.1px solid white;
-}
-#dectvelo3_desc{
-	right: 588px;
-	top: 274px;
-	width: 200px;
-	margin: 0px;
-	line-height: 1px;
-	borde: 2px solid blue;
-}
-#dectvelo2_desc{
-	right: 832px;
-	top: 274px;
-	width: 200px;
-	margin: 0px;
-	line-height: 1px;
-	borde: 2px solid blue;
-}
-#dectvelo1_desc{
-	right: 1076px;
-	top: 273px;
-	width: 200px;
-	borde: 2px solid blue;
-	margin: 0px;
-	line-height: 1px;
+	height: 550px;
 }
 #dm{
 	position: relative;
 	width: 1298px;
 	height: 500px;
-}
-#dm3_desc{
-	right: 344px;
-	top: 382px;
-	width: 200px;
-	margin: 0px;
-	line-height: 1px;
-	borde: 2px solid blue;
-}
-#dm2_desc{
-	right: 588px;
-	top: 382px;
-	width: 200px;
-	margin: 0px;
-	line-height: 1px;
-	borde: 2px solid blue;
-}
-#dm1_desc{
-	right: 832px;
-	top: 382px;
-	width: 200px;
-	margin: 0px;
-	line-height: 1px;
-	borde: 2px solid blue;
-}
-#dm_desc{
-	right: 1076px;
-	top: 382px;
-	width: 200px;
-	borde: 2px solid blue;
-	margin: 0px;
-	line-height: 1px;
 }
 .cart_button{
 	width: 100px;
@@ -237,7 +163,7 @@ footer{
 	position: relative;
 	width: 1300px;
 	bottom: 36px;
-	margin-bottom: 0px;
+	margin-bottom: px;
 	background-color: rgba(49, 194, 245, 0.5);
 	border-bottom: 1px solid blue;
 	border-left: 1px solid blue;

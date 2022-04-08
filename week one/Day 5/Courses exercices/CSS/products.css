@@ -248,8 +248,3 @@ footer p{
 	text-align: center;
 	color: grey;
 }
-img[id="dect1_img"]:hover{
-	#dect1_img{
-		display: none;
-	}
-}

@@ -76,7 +76,13 @@ a{
 	text-transform: uppercase;
 }
 a:visited{
-	font-weight: bold;
+	color: steelblue;
+}
+a:hover{
+	color: green;
+}
+a:active{
+	color: white;
 }
 nav p{
 	margin-left: 10px;

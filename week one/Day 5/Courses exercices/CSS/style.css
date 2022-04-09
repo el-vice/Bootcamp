@@ -100,6 +100,9 @@ a{
 a:hover{
 	color: green;
 }
+a:visited{
+	color: steelblue;
+}
 footer{
 	position: relative;
 	width: 700px;

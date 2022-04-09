@@ -111,12 +111,21 @@ img:hover figcaption{
 .img_box1:hover .act_icon_box{
 	display: inline-block;
 }
+.img_box1:hover .cart_button{
+	background-color: steelblue;
+	border: none;
+}
 .icon{
 	width: 40px;
 	border: 1px solid grey inset;
 }
 .icon:hover{
+	border-color: steelblue;
 	border-style: inset;
+}
+.icon:active{
+	border-color: grey;
+	border-style: unset;
 }
 title{
 	background-color: steelblue;
@@ -146,6 +155,10 @@ title{
 	font-size: 11px;
 	font-weight: bold;
 	background-color: transparent;
+}
+.cart_button:active{
+	color: green;
+	box-shadow: 3px 3px 3px white inset;
 }
 .button{
 	width: 150px;

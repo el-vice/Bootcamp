@@ -145,3 +145,307 @@ span a{
 	font-weight: normal;
 	color:;
 }
+/* for Tablet in portrait mode */
+@media only screen
+and (min-device-width: 480px)
+and (max-device-width: 768px)
+{
+	main{
+		width: 502px;
+		margin: auto;
+		box-shadow: 5px 5px 100px steelblue;
+		border-radius: 5px;
+	}
+	section{
+		position: relative;
+		width: 500px;
+		margin: auto;
+		margin-bottom: 0px;
+		height: 600p;
+		background-color: rgba(49, 194, 245, 0.5);
+		border-left: 1px solid blue;
+		border-right: 1px solid blue;
+	}
+	img{
+		display: inline-block;
+		position: relative;
+		left: 70px;
+		top: 30px;
+		width: 200px;
+
+	}
+	h1{
+		display: inline-block;
+		position: relative;
+		left: 150px;
+		top: 0px;
+		font-size: 25px;
+	}
+	form{
+		position: relative;
+		bottom: 40px;
+		width: 350px;
+		margin: auto;
+	}
+	label{
+		position: relative;
+		display: block;
+		font-size: 20px;
+	}
+	input{
+		display: block;
+		position: relative;
+		left: 150px;
+		bottom: 23px;
+	}
+	fieldset{
+		margin-top: 30px;
+		padding: 20px;
+		border-radius: 10px;
+		border: 2px solid white;
+	}
+	legend{
+		color: grey;
+		font-weight: bold;
+	}
+	footer{
+		position: relative;
+		width: 500px;
+		margin-bottom: 0px;
+		background-color: rgba(49, 194, 245, 0.5);
+		border-bottom: 1px solid blue;
+		border-left: 1px solid blue;
+		border-right: 1px solid blue;
+		border-radius: 0px 0px 5px 5px;
+	}
+	footer p{
+		text-align: center;
+		color: grey;
+	}
+	a{
+		text-decoration: none;
+		font-size: 20;
+		text-transform: uppercase;
+	}
+	a:visited{
+		color: steelblue;
+	}
+	a:hover{
+		color: green;
+	}
+	a:active{
+		color: white;
+	}
+	nav p{
+		margin-left: 10px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	nav{
+		position: relative;
+		width: 500px;
+		margin: auto;
+		margin-top: 50px;
+		height: 40px;
+		padding: 0px;
+		background-color: rgb(248, 249, 250);
+		border-top: 1px solid blue;
+		border-left: 1px solid blue;
+		border-right: 1px solid blue;
+		border-radius: 5px 5px 0px 0px;
+	}
+	#form_button{
+		position: relative;
+		top: 20px;
+		left: 100px;
+		width: 200px;
+		height: 40px;
+		font-size: 20px;
+		border-radius: 3px;
+		border: none;
+		background-color: rgba(32, 56, 100, 1.0);
+		color: white;
+	}
+	#form_button: active{
+		color: green;
+		box-shadow: 3px 3px 3px white inset;
+	}
+	form a{
+		text-transform: none;
+		text-align: right;
+		margin-left: 230px;
+	}
+	form a[id="signup"]{
+		text-transform: none;
+		text-align: right;
+		margin-left: 135px;
+	}
+	h1 span{
+		display: inline-block;
+		position: absolute;
+		width: 250px;
+		right: 12px;
+		margin-bottom: 15px;
+		text-decoration: none;
+		text-transform: initial;
+		font-weight: normal;
+		font-size: 18px;
+	}
+	span a{
+		text-decoration: none;
+		text-transform: initial;
+		font-weight: normal;
+	}
+}
+/* For phones */
+@media only screen
+and (max-device-width: 480px)
+{
+	main{
+		width: 480px;
+		margin: auto;
+		box-shadow: 5px 5px 100px steelblue;
+		border-radius: 5px;
+	}
+	section{
+		position: relative;
+		width: 478px;
+		margin: auto;
+		margin-bottom: 0px;
+		background-color: rgba(49, 194, 245, 0.5);
+		border-left: 1px solid blue;
+		border-right: 1px solid blue;
+	}
+	img{
+		display: inline-block;
+		position: relative;
+		left: 70px;
+		top: 30px;
+		width: 150px;
+
+	}
+	h1{
+		display: inline-block;
+		position: relative;
+		left: 150px;
+		top: 0px;
+		font-size: 25px;
+	}
+	form{
+		position: relative;
+		bottom: 20px;
+		width: 300px;
+		margin: auto;
+	}
+	label{
+		position: relative;
+		right: 19px;
+		display: block;
+		font-size: 20px;
+	}
+	input{
+		display: block;
+		position: relative;
+		left: 100px;
+		bottom: 23px;
+	}
+	fieldset{
+		margin-top: 30px;
+		padding: 20px;
+		border-radius: 10px;
+		border: 2px solid white;
+	}
+	legend{
+		color: grey;
+		font-weight: bold;
+	}
+	footer{
+		position: relative;
+		bottom: 16px;
+		width: 478px;
+		margin-bottom: 0px;
+		background-color: rgba(49, 194, 245, 0.5);
+		border-bottom: 1px solid blue;
+		border-left: 1px solid blue;
+		border-right: 1px solid blue;
+		border-radius: 0px 0px 5px 5px;
+	}
+	footer p{
+		text-align: center;
+		color: grey;
+	}
+	a{
+		text-decoration: none;
+		font-size: 20;
+		text-transform: uppercase;
+	}
+	a:visited{
+		color: steelblue;
+	}
+	a:hover{
+		color: green;
+	}
+	a:active{
+		color: white;
+	}
+	nav p{
+		margin-left: 10px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	nav{
+		position: relative;
+		width: 478px;
+		margin: auto;
+		margin-top: 50px;
+		height: 40px;
+		padding: 0px;
+		background-color: rgb(248, 249, 250);
+		border-top: 1px solid blue;
+		border-left: 1px solid blue;
+		border-right: 1px solid blue;
+		border-radius: 5px 5px 0px 0px;
+	}
+	#form_button{
+		position: relative;
+		top: 20px;
+		left: 100px;
+		width: 150px;
+		height: 40px;
+		font-size: 20px;
+		border-radius: 3px;
+		border: none;
+		background-color: rgba(32, 56, 100, 1.0);
+		color: white;
+	}
+	#form_button: active{
+		color: green;
+		box-shadow: 3px 3px 3px white inset;
+	}
+	form a{
+		text-transform: none;
+		text-align: right;
+		margin-left: 180px;
+	}
+	form a[id="signup"]{
+		text-transform: none;
+		text-align: right;
+		margin-left: 90px;
+	}
+	h1 span{
+		display: inline-block;
+		position: absolute;
+		width: 150px;
+		left: 0px;
+		margin-bottom: 15px;
+		text-decoration: none;
+		text-transform: initial;
+		font-weight: normal;
+		font-size: 18px;
+	}
+	span a{
+		text-decoration: none;
+		text-transform: initial;
+		font-weight: normal;
+	}
+}

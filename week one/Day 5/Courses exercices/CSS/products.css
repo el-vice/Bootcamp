@@ -1,9 +1,9 @@
+/* Desktop and wide screens */
 @media only screen
 and (min-device-width: 768px)
 {
 	main{
 		width: 1302px;
-		heigh: 1600px;
 		margin: auto;
 		margin-bottom: 50px;
 		padding-top: 0px;
@@ -58,7 +58,7 @@ and (min-device-width: 768px)
 		border-radius: 5px 0px 5px 0px;
 	}
 	img{
-		position: relativ;
+		position: relative;
 		display: inline-block;
 		width: 200px;
 		margin: auto;
@@ -68,7 +68,6 @@ and (min-device-width: 768px)
 		display: inline-block;
 		width: 200px;
 		margin: auto;
-		left: ;
 		text-align: center;
 	}
 	img:hover figcaption{
@@ -83,7 +82,6 @@ and (min-device-width: 768px)
 	.img_box1:hover figcaption{
 		box-shadow: 5px 5px 20px darkblue;
 		border: 1px solid greenyellow;
-		borde-left: 1px solid white;
 		border-radius: 0px 0px 7px 7px;
 	}
 	.img_box1:hover{
@@ -117,11 +115,6 @@ and (min-device-width: 768px)
 	.icon:active{
 		border-color: grey;
 		border-style: unset;
-	}
-	title{
-		background-color: steelblue;
-		color: darkblue;
-		border-radius: 5px;
 	}
 	.button:active{
 		color: green;
@@ -164,7 +157,6 @@ and (min-device-width: 768px)
 		position: relative;
 		width: 1300px;
 		bottom: 36px;
-		margin-bottom: px;
 		background-color: rgba(49, 194, 245, 0.5);
 		border-bottom: 1px solid blue;
 		border-left: 1px solid blue;
@@ -184,7 +176,6 @@ and (orientation: portrait)
 {
 	main{
 		width: 500px;
-		heigh: 1685px;
 		margin: auto;
 		margin-bottom: 50px;
 		padding-top: 0px;
@@ -238,7 +229,7 @@ and (orientation: portrait)
 		border-radius: 5px 0px 5px 0px;
 	}
 	img{
-		position: relativ;
+		position: relative;
 		display: inline-block;
 		width: 200px;
 		margin: auto;
@@ -248,7 +239,6 @@ and (orientation: portrait)
 		display: inline-block;
 		width: 200px;
 		margin: auto;
-		left: ;
 		text-align: center;
 	}
 	img:hover figcaption{
@@ -263,7 +253,6 @@ and (orientation: portrait)
 	.img_box1:hover figcaption{
 		box-shadow: 5px 5px 20px darkblue;
 		border: 1px solid greenyellow;
-		borde-left: 1px solid white;
 		border-radius: 0px 0px 7px 7px;
 	}
 	.img_box1:hover{
@@ -297,11 +286,6 @@ and (orientation: portrait)
 	.icon:active{
 		border-color: grey;
 		border-style: unset;
-	}
-	title{
-		background-color: steelblue;
-		color: darkblue;
-		border-radius: 5px;
 	}
 	.button:active{
 		color: green;
@@ -342,7 +326,6 @@ and (orientation: portrait)
 		position: relative;
 		width: 500px;
 		bottom: 36px;
-		margin-bottom: px;
 		background-color: rgba(49, 194, 245, 0.5);
 		border-bottom: 1px solid blue;
 		border-left: 1px solid blue;
@@ -354,12 +337,12 @@ and (orientation: portrait)
 		color: grey;
 	}
 }
+/* phones */
 @media only screen
 and (max-device-width: 480px)
 {
 	main{
 		width: 480px;
-		heigh: 1685px;
 		margin: auto;
 		margin-bottom: 50px;
 		padding-top: 0px;
@@ -406,14 +389,14 @@ and (max-device-width: 480px)
 		width: 200px;
 	}
 	hr{
-		width: 150px;
+		width: 100px;
 		margin-left: 0px;
 		height: 3px;
 		background-color: rgba(32, 56, 100, 1.0);
 		border-radius: 5px 0px 5px 0px;
 	}
 	img{
-		position: relativ;
+		position: relative;
 		display: inline-block;
 		width: 200px;
 		margin: auto;
@@ -423,7 +406,6 @@ and (max-device-width: 480px)
 		display: inline-block;
 		width: 200px;
 		margin: auto;
-		left: ;
 		text-align: center;
 	}
 	img:hover figcaption{
@@ -438,7 +420,6 @@ and (max-device-width: 480px)
 	.img_box1:hover figcaption{
 		box-shadow: 5px 5px 20px darkblue;
 		border: 1px solid greenyellow;
-		borde-left: 1px solid white;
 		border-radius: 0px 0px 7px 7px;
 	}
 	.img_box1:hover{
@@ -472,11 +453,6 @@ and (max-device-width: 480px)
 	.icon:active{
 		border-color: grey;
 		border-style: unset;
-	}
-	title{
-		background-color: steelblue;
-		color: darkblue;
-		border-radius: 5px;
 	}
 	.button:active{
 		color: green;
@@ -517,7 +493,6 @@ and (max-device-width: 480px)
 		position: relative;
 		width: 478px;
 		bottom: 36px;
-		margin-bottom: px;
 		background-color: rgba(49, 194, 245, 0.5);
 		border-bottom: 1px solid blue;
 		border-left: 1px solid blue;

@@ -1,0 +1,51 @@
+#pattern1, #pattern2{
+	display: grid;
+	grid-template-rows: repeat(16, 50px);
+	grid-template-columns: repeat(16, 50px);
+	grid-gap: 10px 10px;
+	justify-content: center;
+	width: 955px;
+	border: 2px solid black;
+	padding: auto;
+	margin: auto;
+	margin-top: 10px;
+}
+#pattern3{
+	display: grid;
+	grid-template-columns: repeat(16, 59px);
+	grid-template-rows: repeat(9, 59px);
+	border: 2px solid black;
+	width: 880px;
+	margin: auto;
+	margin-top: 10px;
+}
+.orange{
+	background-color: orange;
+}
+.marron{
+	background-color: palegoldenrod;
+}
+.chocolate{
+	background-color: maroon;
+}
+.blk{
+	background-color: black;
+}
+.gr1{
+	background-color: rgb(204, 204, 204);
+}
+.gr2{
+	background-color: rgb(152, 153, 153);
+}
+.gr3{
+	background-color: rgb(102, 102, 102);
+}
+.lr{
+	background-color: rgb(230, 127, 126);
+}
+.wh{
+	background-color: white;
+}
+.rd{
+	background-color: rgb(216, 62, 59);
+}
